@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "tech-stack-database"
+version = "0.1.0"
+description = "searchable and reusable technology stack database"
+authors = ["masukawa <spiral.spirit.spider@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.18"
+pandas = "^2.1.3"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+ipykernel = "^6.27.1"
+lxml = "^4.9.3"
+numpy = "^1.26.2"
+streamlit = "^1.29.0"
+streamlit-searchbox = "^0.1.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
